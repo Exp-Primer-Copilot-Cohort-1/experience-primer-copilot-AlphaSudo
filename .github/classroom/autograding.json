@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Step 0 Welcome",
+      "name": "devcontainer/devcontainer.json",
       "setup": "sleep 20",
       "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
